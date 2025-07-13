@@ -72,3 +72,13 @@ console.log("Такого города нет в списке");
 ## Experience
 
 Project wce.by «Умные вещи для умных людей» + forum.wce.by (сurrently closed) – experience included building website with WordPress, HTML/CSS layout implementation, forum administration and modification, DevOps tasks, database management.
+
+## Education
+
+- RS School: JS/FE Pre-School 2025Q2
+- Training Center "SEOLAB": SEO Website Promotion
+- Belarusian State Academy of Music: Musicology
+
+## English Level
+
+Intermediate – B1
