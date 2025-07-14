@@ -11,10 +11,23 @@
         <p><strong>Junior Frontend Developer</strong></p>
         <hr />
         <img src="ava.jpg" alt="avatar" height="200" />
+
+        <!-- Добавленный nav -->
+        <nav>
+          <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code Example</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#english">English Level</a></li>
+          </ul>
+        </nav>
       </header>
 
       <main>
-        <section>
+        <section id="contacts">
           <h2>Contacts</h2>
           <ul>
             <li>
@@ -33,7 +46,7 @@
           </ul>
         </section>
 
-        <section>
+        <section id="about">
           <h2>About Me</h2>
           <p>
             I am currently studying to become a frontend developer. Previously,
@@ -44,7 +57,7 @@
           </p>
         </section>
 
-        <section>
+        <section id="skills">
           <h2>Skills</h2>
           <p><strong>Frontend & Programming:</strong></p>
           <ul>
@@ -65,7 +78,7 @@
           </ul>
         </section>
 
-        <section>
+        <section id="code">
           <h2>Code Example</h2>
           <blockquote>
             There is an array cities containing city names. A program asks the
@@ -98,7 +111,7 @@ if (cities.includes(userInput)) {
 }</code></pre>
         </section>
 
-        <section>
+        <section id="experience">
           <h2>Experience</h2>
           <p>
             Project <strong>wce.by «Умные вещи для умных людей»</strong> +
@@ -107,9 +120,21 @@ if (cities.includes(userInput)) {
             implementation, forum administration and modification, DevOps tasks,
             database management.
           </p>
+          <p>
+            Solving JavaScript practice tasks as part of the educational
+            programs "<em>Diving into JavaScript: for Beginners</em>" by
+            Ersultan Sagandykov and "<em>Your JavaScript</em>" by Pavel Tarasov.
+            See code on
+            <a
+              href="https://github.com/sunny278/learning_js/tree/main"
+              target="_blank"
+            >
+              GitHub </a
+            >.
+          </p>
         </section>
 
-        <section>
+        <section id="education">
           <h2>Education</h2>
           <ul>
             <li>RS School: JS/FE Pre-School 2025Q2</li>
@@ -118,14 +143,22 @@ if (cities.includes(userInput)) {
           </ul>
         </section>
 
-        <section>
+        <section id="english">
           <h2>English Level</h2>
           <p>Intermediate – B1</p>
         </section>
       </main>
 
       <footer>
-        <p>&copy; 2025 Katsiaryna Maroz</p>
+        <p>
+          &copy; 2025
+          <a href="https://github.com/sunny278" target="_blank"
+            >Katsiaryna Maroz</a
+          >
+        </p>
+        <a href="https://rs.school/courses/javascript-ru" target="_blank">
+          <img src="rs-school-logo.svg" alt="RS School Logo" height="40" />
+        </a>
       </footer>
     </div>
   </body>
