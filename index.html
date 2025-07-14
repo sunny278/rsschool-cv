@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Katsiaryna Maroz – Frontend Developer</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Katsiaryna Maroz</h1>
+        <p><strong>Junior Frontend Developer</strong></p>
+        <hr />
+        <img src="ava.jpg" alt="avatar" height="200" />
+      </header>
+
+      <main>
+        <section>
+          <h2>Contacts</h2>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:sunny.lotos278@gmail.com"
+                >sunny.lotos278@gmail.com</a
+              >
+            </li>
+            <li>Discord: sunny_69591</li>
+            <li>
+              Telegram:
+              <a href="https://t.me/sunnylotus278" target="_blank"
+                >@sunnylotus278</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>About Me</h2>
+          <p>
+            I am currently studying to become a frontend developer. Previously,
+            I worked on building websites with WordPress, as well as doing web
+            design, audio editing and video production. This experience helped
+            me develop strong attention to detail and a well-rounded
+            understanding of digital products.
+          </p>
+        </section>
+
+        <section>
+          <h2>Skills</h2>
+          <p><strong>Frontend & Programming:</strong></p>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git</li>
+            <li>MySQL</li>
+          </ul>
+
+          <p><strong>Other Tools:</strong></p>
+          <ul>
+            <li>CorelDraw</li>
+            <li>Photoshop</li>
+            <li>Adobe Premiere Pro</li>
+            <li>Vegas Pro</li>
+            <li>Audacity</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Code Example</h2>
+          <blockquote>
+            There is an array cities containing city names. A program asks the
+            user to input the name of a city and checks whether this city exists
+            in the array. If the city is found, it displays cities starting with
+            the same letter. Otherwise, it shows an error message.
+          </blockquote>
+          <pre><code>const cities = [
+  "Москва",
+  "Санкт-Петербург",
+  "Саратов",
+  "Магадан",
+  "Ярославль",
+  "Самара",
+  "Якутск",
+];
+
+const userInput = prompt();
+
+if (cities.includes(userInput)) {
+  const filteredCities = cities.filter(function (city) {
+    return city[0] === userInput[0];
+  });
+
+  console.log(
+    `Города, начинающиеся с буквы "${userInput[0]}": ${filteredCities.join(", ")}`
+  );
+} else {
+  console.log("Такого города нет в списке");
+}</code></pre>
+        </section>
+
+        <section>
+          <h2>Experience</h2>
+          <p>
+            Project <strong>wce.by «Умные вещи для умных людей»</strong> +
+            <strong>forum.wce.by</strong> (currently closed) – experience
+            included building website with WordPress, HTML/CSS layout
+            implementation, forum administration and modification, DevOps tasks,
+            database management.
+          </p>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li>RS School: JS/FE Pre-School 2025Q2</li>
+            <li>Training Center "SEOLAB": SEO Website Promotion</li>
+            <li>Belarusian State Academy of Music: Musicology</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>English Level</h2>
+          <p>Intermediate – B1</p>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Katsiaryna Maroz</p>
+      </footer>
+    </div>
+  </body>
+</html>
